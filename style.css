@@ -1,0 +1,56 @@
+
+body {
+    background-color: #170B3B;
+}
+
+.main{
+    border-radius: 0.3cm;
+    background-color: #003060;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 55px;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-top: 25px;
+    width: 500px;
+    height: 650px;
+}
+
+.screen{
+    text-align: right;
+    border: 2.5px solid #710019;
+    border-radius: 0.2cm;
+    margin:auto;
+    margin-bottom: 45px;
+    background-color: cornsilk;
+    padding-top: 35px;
+    width: 100%;
+    height: 90px;
+    font-size: xxx-large;
+    font-weight: lighter;
+    color: #170B3B;
+}
+
+#row{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-row-gap: 20px;
+    height: 25px;
+    justify-content: space-between;
+}
+
+.button{
+    height: 80px;
+    background-color: #050A30;
+    border-radius: 0.2cm;
+    text-align: center;
+    color:white;
+    font-style: oblique;
+    font-size: xx-large;
+    font-weight: lighter;
+    padding:0px;
+}
+
+
+
+

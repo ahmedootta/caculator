@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <meta name='viewport' content='width = device-width, initial-scale = 1.0'>
+    <link rel='stylesheet' href='style.css'>
+    <head>
+      <title> Calculator App </title>
+
+    <body>
+        <!--calculator body-->
+        <div class=main>
+
+            <!--screen-->
+            <div id="screen" class=screen>
+
+            </div>
+
+            <!--buttons-->
+            <div id='row'>
+                    <!--first row-->
+                    <input type='button' onclick="AC()" class=button value='AC' style='background-color: #710019;'>
+                    <input type='button' onclick="del()" class=button value='Del' style='background-color: #710019;'>
+                    <input type='button' onclick="display(this.value)" class=button value='.' style='background-color: #FFA500'>
+                    <input type='button' onclick="operator(this.value)" class=button value='/' style='background-color: #FFA500'>
+                    <!--second row-->
+                    <input type='button' onclick="display(this.value)" class=button value='7'>
+                    <input type='button' onclick="display(this.value)" class=button value='8'>
+                    <input type='button' onclick="display(this.value)" class=button value='9'>
+                    <input type='button' onclick="operator(this.value)" class=button style='background-color: #FFA500' value='*'>
+                    <!--third row-->
+                    <input type='button' onclick="display(this.value)" class=button value='4'>
+                    <input type='button' onclick="display(this.value)" class=button value='5'>
+                    <input type='button' onclick="display(this.value)" class=button value='6'>
+                    <input type='button' onclick="operator(this.value)" class=button style='background-color: #FFA500' value='-'>
+                    <!--fourth row-->
+                    <input type='button' onclick="display(this.value)" class=button value='1'>
+                    <input type='button' onclick="display(this.value)" class=button value='2'>
+                    <input type='button' onclick="display(this.value)" class=button value='3'>
+                    <input type='button' onclick="operator(this.value)" class=button style='background-color: #FFA500' value='+'>
+                    <!--fifth row-->
+                    <input type='button' onclick="display(this.value)" class=button style='background-color: #21B6A8;' value='0'>
+                    <input type='button' onclick="display(this.value)" class=button style='background-color: #21B6A8;' value='00'>
+                    <input type='button' onclick="calc()" class=button style='width: 234px; background-color: #2C5E1A;' value='='>
+            </div>
+          </div>
+
+          <script src="main.js">
+          </script>
+
+       </body>
+    </head>
+</html>
